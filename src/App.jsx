@@ -1,15 +1,12 @@
-import { useState } from 'react'
 import './App.css'
-import BlackKey from './BlackKeys'
-import WhiteKey from "./WhiteKey";
-
+import Octave from './Octave';
 
 function App() {
   return (
-
     <div>
-      <BlackKey />
-      <WhiteKey />
+      <div className='keys'>
+        <Octave />
+      </div>
     </div>
   );
 
