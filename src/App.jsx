@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 import BlackKey from './BlackKeys'
+import WhiteKey from "./WhiteKey";
+
 
 function App() {
-
   return (
-    <BlackKey />
-  )
+
+    <div>
+      <BlackKey />
+      <WhiteKey />
+    </div>
+  );
+
 }
 
-export default App
+export default App;
