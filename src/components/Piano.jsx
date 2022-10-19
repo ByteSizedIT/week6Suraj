@@ -1,28 +1,34 @@
-import Key from "./Key";
-import { useEffect, useState } from "react";
-import { NOTES, keyMap } from "./constants";
+import Key from "./Key"
+import { useEffect, useState } from "react"
+import { NOTES, keyMap } from "./constants"
 
 const Piano = () => {
-  const [selectedNote, setSelectedNote] = useState("");
+  const [selectedNote, setSelectedNote] = useState("")
 
   function handleKeyDown(event) {
     for (let key in keyMap) {
       if (event.key === key) {
-        setSelectedNote(keyMap[event.key]);
-        const noteAudio = new Audio();
-        noteAudio.src = `assets/Notes/${selectedNote}.mp3`;
-        noteAudio.play();
+        setSelectedNote(keyMap[event.key])
       }
     }
   }
 
   useEffect(() => {
-    window.addEventListener("keydown", handleKeyDown);
-
+    window.addEventListener("keydown", handleKeyDown)
     return () => {
-      window.removeEventListener("keydown", handleKeyDown);
-    };
-  }, [selectedNote]);
+      window.removeEventListener("keydown", handleKeyDown)
+    }
+  }, [])
+
+  useEffect(playAudio, [selectedNote])
+
+  function playAudio() {
+    if (!selectedNote) return
+
+    const noteAudio = new Audio()
+    noteAudio.src = `assets/Notes/${selectedNote}.mp3`
+    noteAudio.play()
+  }
 
   return (
     <div className="piano">
@@ -31,7 +37,7 @@ const Piano = () => {
         <Key key={`key-${index}`} note={note} selectedNote={selectedNote} />
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default Piano;
+export default Piano
