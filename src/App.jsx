@@ -1,18 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import BlackKey from './BlackKeys'
-import WhiteKey from "./WhiteKey";
-
+import "./App.css"
+import Piano from "./Piano"
 
 function App() {
   return (
-
     <div>
-      <BlackKey />
-      <WhiteKey />
+      <Piano />
     </div>
-  );
-
+  )
 }
 
-export default App;
+export default App
