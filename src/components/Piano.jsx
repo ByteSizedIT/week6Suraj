@@ -2,13 +2,15 @@ import Key from "./Key"
 import { useEffect, useState } from "react"
 import { NOTES, keyMap } from "./constants"
 
-const Piano = () => {
+const Piano = ({ setScore }) => {
   const [selectedNote, setSelectedNote] = useState("")
 
   function handleKeyDown(event) {
+    const userInput = event.key.toLowerCase()
     for (let key in keyMap) {
-      if (event.key === key) {
-        setSelectedNote(keyMap[event.key])
+      if (userInput === key) {
+        setSelectedNote(keyMap[userInput])
+        setScore((currentScore) => currentScore + 1)
       }
     }
   }
