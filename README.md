@@ -16,3 +16,25 @@
 ## Stretch criteria 
 - Save your state to localstorage so you can leave the page and come back later
 - Make it look great
+
+## Daily Log
+#### Tuesday  
+- Came up with ideas but most of them were rejected due to the complexity of them. (Packman's ai, flappy birds).
+- Determined what our main app and user stories would be. 
+- Verified that we are meeting all the acceptance crtieria within the project.
+- Created issues and netlified our app.
+
+(Before Lunch)
+- Assigned Issues & identified the best way to work as 3's.
+- Found a project reference
+- Created the basic layout of the piano
+- Added basic styles
+- Added audio files
+- Identifed the best way to apporach the project which is to use mapping and objects
+
+(After Lunch)
+- Making the piano work (linking the keys to audio)
+- Plan gamified version
+
+#### Wednesday
+- Assignend issues.

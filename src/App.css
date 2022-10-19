@@ -32,3 +32,7 @@ body {
   cursor: pointer;
   background-color: rgb(184, 184, 18)
 }
+
+.key.flat.selectedKey, .selectedKey {
+  background-color: grey;
+}
