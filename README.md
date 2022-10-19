@@ -16,3 +16,13 @@
 ## Stretch criteria 
 - Save your state to localstorage so you can leave the page and come back later
 - Make it look great
+
+## Daily Log
+#### Tuesday  
+- Came up with ideas but most of them were rejected due to the complexity of them. (Packman's ai, flappy birds).
+- Determined what our main app and user stories would be. 
+- Verified that we are meeting all the acceptance crtieria within the project.
+- Created issues and netlified our app.
+
+#### Wednesday
+- Assignend issues.
