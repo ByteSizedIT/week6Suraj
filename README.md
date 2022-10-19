@@ -24,6 +24,7 @@
 - Verified that we are meeting all the acceptance crtieria within the project.
 - Created issues and netlified our app.
 
+#### Wednesday
 (Before Lunch)
 - Assigned Issues & identified the best way to work as 3's.
 - Found a project reference
@@ -35,6 +36,3 @@
 (After Lunch)
 - Making the piano work (linking the keys to audio)
 - Plan gamified version
-
-#### Wednesday
-- Assignend issues.
