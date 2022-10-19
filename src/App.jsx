@@ -1,5 +1,5 @@
 import "./App.css"
-import Piano from "./Piano"
+import Piano from "./components/Piano.jsx"
 
 function App() {
   return (
