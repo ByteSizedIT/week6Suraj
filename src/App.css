@@ -1,3 +1,17 @@
+.black-key {
+  background-color: #1d1e22;
+  content: "";
+  position: absolute;
+  left: -18px;
+  width: 32px;
+  height: 100px;
+  border-radius: 0 0 3px 3px;
+}
+
+.black-key:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
 .key {
   background-color: #ffffff;
   position: relative;
