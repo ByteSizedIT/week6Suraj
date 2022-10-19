@@ -14,7 +14,6 @@ function App() {
   return (
     <div>
       {gameStarted && <h1>Keys Pressed {score} Times</h1>}
-
       <button onClick={toggleGame}>
         {gameStarted ? "Stop" : "Start"} Game
       </button>
