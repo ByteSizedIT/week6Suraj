@@ -19,4 +19,4 @@ const keyMap = {
     m: 'B4',
 }
 
-export {NOTES, keyMap}
+export {NOTES, keyMap, songs}
