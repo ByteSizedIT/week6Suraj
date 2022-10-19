@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import BlackKey from './BlackKeys'
 
 function App() {
 
   return (
-      <h1>Vite + React</h1>
-
+    <BlackKey />
   )
 }
 
