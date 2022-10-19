@@ -1,6 +1,6 @@
 import Key from "./Key"
 import { useEffect, useState } from "react"
-import { NOTES, keyMap } from "./constants"
+import { NOTES, keyMap, songs } from "./constants"
 
 const Piano = ({ setScore }) => {
   const [selectedNote, setSelectedNote] = useState("")
@@ -32,8 +32,22 @@ const Piano = ({ setScore }) => {
     noteAudio.play()
   }
 
+  function playSequence() {
+    let time = 0
+    for (let i = 0; i <= 1; i++) {
+      setTimeout(
+        () =>
+          window.dispatchEvent(
+            new KeyboardEvent("keydown", { key: songs[0][i] })
+          ),
+        time
+      )
+      time += 1500
+    }
+  }
+
   return (
-    <div className="piano">
+    <div className="piano" onClick={playSequence}>
       {/* <audio src={`assets/Notes/${selectedNote}.mp3`}></audio> */}
       {NOTES.map((note, index) => (
         <Key key={`key-${index}`} note={note} selectedNote={selectedNote} />
