@@ -1,15 +1,12 @@
-import './App.css'
-import Octave from './Octave';
+import "./App.css"
+import Piano from "./Piano"
 
 function App() {
   return (
     <div>
-      <div className='keys'>
-        <Octave />
-      </div>
+      <Piano />
     </div>
-  );
-
+  )
 }
 
-export default App;
+export default App
