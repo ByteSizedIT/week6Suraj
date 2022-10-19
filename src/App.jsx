@@ -1,12 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import BlackKey from './BlackKeys'
+import WhiteKey from "./WhiteKey";
+
 
 function App() {
-
   return (
-      <h1>Vite + React</h1>
 
-  )
+    <div>
+      <BlackKey />
+      <WhiteKey />
+    </div>
+  );
+
 }
 
-export default App
+export default App;
