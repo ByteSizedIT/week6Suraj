@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import WhiteKey from "./WhiteKey";
+import "./App.css";
 
 function App() {
-
   return (
-      <h1>Vite + React</h1>
-
-  )
+    <div>
+      <WhiteKey />
+    </div>
+  );
 }
 
-export default App
+export default App;
