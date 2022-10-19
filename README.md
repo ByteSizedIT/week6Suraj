@@ -34,5 +34,12 @@
 - Identifed the best way to apporach the project which is to use mapping and objects
 
 (After Lunch)
-- Making the piano work (linking the keys to audio)
-- Plan gamified version
+- Add key listeners
+- Added visual feedback for active keys
+- Handled start/stop game
+- Created sequence
+- Added way to simulate keydown events
+- Started the gamified version of the project
+- Arrived at the conclusion that group coding was kewl
+- Finished acceptance criteria
+- Broke down issues into smaller ones
