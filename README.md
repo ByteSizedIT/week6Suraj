@@ -43,3 +43,8 @@
 - Arrived at the conclusion that group coding was kewl
 - Finished acceptance criteria
 - Broke down issues into smaller ones
+
+#### Thursday
+(Before Lunch)
+- Create loop to validate user input 🤔🤔🤔
+- Worked in pairs of 3 with 10min rotations
